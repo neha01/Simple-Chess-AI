@@ -1,0 +1,162 @@
+/* Styling for ChessBoard and heuristics section*/
+
+.board {
+    width: 600px;
+    margin: auto;
+	margin-right:50px;
+	margin-left:50px;
+	float:left;
+	margin-bottom:100px;
+	
+}
+
+.info-heading{
+	color:black;
+	font-size:30px;
+	font-weight:900;
+	margin-top:10px;
+}
+
+.info {
+    width: 400px;
+    margin-left: 50px;
+	float:left;
+	border:10px solid red;
+	padding:10px;
+	
+}
+.info-content{
+	color:#213EE3  ;
+	
+	font-size:15px;
+	font-weight:900;
+}
+.main{
+	float:left;
+	clear:left;
+	background: rgb(96,143,149);
+	
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+
+/* =======================================================
+*
+* 	Styling for Chess AI Homepage
+*	
+*
+* ======================================================= */
+html {
+    height: 100%;
+}
+
+body {
+	
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+  background: #fff;
+  color: #848484;
+  font-weight: 300;
+  overflow-x: hidden;
+  height:100%;
+}
+
+h2{
+  color: #212121;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.homepage-overlay {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+  height:100%;
+}
+
+.homepage-cover {
+  background-size: cover;
+  position: relative;
+  height:100%;
+}
+
+.homepage-cover .btn {
+  padding: 1em 2em;
+  opacity: .9;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+
+
+.homepage-cover .desc {
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  margin-top: -100px;
+  z-index: 2;
+  color: #fff;
+}
+
+.homepage-cover .desc h2 {
+	
+  color: #fff;
+  font-size: 55px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+
+.homepage-cover .desc span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto", Arial, sans-serif;
+}
+.homepage-cover .desc span i {
+  color: #DA1212;
+}
+
+.homepage-cover .desc span a:hover, .homepage-cover .desc span a:focus {
+  color: #fff !important;
+}
+
+.btn.btn-primary {
+  background: #4CB648;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+   -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background: #84c1ff !important;
+  color: #fff !important;
+  outline: none !important;
+}
+
+
+
+
+
+
+
+
