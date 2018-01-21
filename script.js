@@ -21,7 +21,7 @@ var chessAI =function(depth, chess) {
 
  var NegaMax=function(depth,chess,color,alpha,beta) {
 	   positionsEvaluated++;
-	 var SIGN=[1,-1];   //0 is white, 1 is black(computer);SIGN IS CONSTANT DO NOT CHANGE
+	 var SIGN=[1,-1];   //SIGN[0]=1 is white (Player),SIGN[1]=-1 is black(computer); SIGN IS CONSTANT DO NOT CHANGE
 	 if (depth === 0) {
         return SIGN[color]*evaluateBoard(chess.board());
     }
